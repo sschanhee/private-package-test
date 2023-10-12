@@ -9,5 +9,7 @@
   "devDependencies": {
     "typescript": "^5.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "example-library": "https://github.com/TeamTheatrum/private-package-demo.git"
+  }
 }
