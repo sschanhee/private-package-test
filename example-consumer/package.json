@@ -1,0 +1,12 @@
+{
+  "name": "example-consumer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run-main": "node ./compiled/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
