@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"example-library@https://github.com/sschanhee/private-package-test.git":
+"example-library@https://github.com/sschanhee/private-package-test.git#v1.0":
   version "1.0.0"
-  resolved "https://github.com/sschanhee/private-package-test.git#35082b4439e68d009fbb944cdda8ca7674a65ee4"
+  resolved "https://github.com/sschanhee/private-package-test.git#f4a70783f5cc5e1d0573e632efb94eb12b3fbfa6"
 
 typescript@^5.2.2:
   version "5.2.2"
