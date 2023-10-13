@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+## HI
+
 # Get the current branch name
 branch_name=$(git branch | grep "*" | sed "s/\* //")
 
