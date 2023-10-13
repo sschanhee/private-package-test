@@ -7,9 +7,9 @@ merged_branch_name=$(echo $reflog_message | cut -d" " -f 4 | sed "s/://")
 # Get current tag of branch in promised format
 current_branch_tag=$(git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD | grep -E "^v[[:digit:]]{1,5}\.[[:digit:]]{1,5}$")
 
-# if [[ $merged_branch_name != "main" || $current_branch_tag]]; then
-#     exit 0;
-# fi
+if [[ $merged_branch_name != "main" || $current_branch_tag]]; then
+    exit 0;
+fi
 
 latest_tag=$(git tag -l --sort=-v:refname | head -n 1)
 tag_num=$(tr 'v' $'\n' <<< $latest_tag | tail -n 1)
