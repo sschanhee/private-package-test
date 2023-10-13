@@ -17,4 +17,4 @@ jobs:
          node-version: '16.13.2'
       - name: Install dependencies
         run: cd example-consumer && yarn --frozen-lockfile
-      - run: yarn run-main && echo ${{ github.token }}
+      - run: cd example-consumer && yarn run-main && echo ${{ github.token }}
