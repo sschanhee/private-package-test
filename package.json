@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "example-library/dist/index.js",
   "types": "example-library/dist/index.d.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "post-merge": "./post-merge-logic.sh"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }

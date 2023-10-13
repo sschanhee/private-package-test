@@ -4,7 +4,7 @@
 
 "example-library@https://github.com/sschanhee/private-package-test.git":
   version "1.0.0"
-  resolved "https://github.com/sschanhee/private-package-test.git#0893ca9952eb627c53db6d202af93e5ce4339fd7"
+  resolved "https://github.com/sschanhee/private-package-test.git#2f8d24bbed88d869945ab8592327040ea73c72e4"
 
 typescript@^5.2.2:
   version "5.2.2"
