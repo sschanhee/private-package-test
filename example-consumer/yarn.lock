@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"example-library@https://github.com/TeamTheatrum/private-package-demo.git":
+"example-library@https://github.com/sschanhee/private-package-test.git":
   version "1.0.0"
-  resolved "https://github.com/TeamTheatrum/private-package-demo.git#a44f785b90b47bb6ebad54be6168ee44a79d85ad"
+  resolved "https://github.com/sschanhee/private-package-test.git#35082b4439e68d009fbb944cdda8ca7674a65ee4"
 
 typescript@^5.2.2:
   version "5.2.2"

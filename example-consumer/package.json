@@ -10,6 +10,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "example-library": "https://github.com/TeamTheatrum/private-package-demo.git"
+    "example-library": "https://github.com/sschanhee/private-package-test.git"
   }
 }
