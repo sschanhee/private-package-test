@@ -7,7 +7,7 @@ jobs:
       - name: Setup git credentials
         uses: fusion-engineering/setup-git-credentials@v2
         with:
-          credentials: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+          credentials: ${{secrets.GIT_CREDENTIALS}}
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
