@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "run-main": "yarn tsc && node ./compiled/main.js"
+    "run-main": "esbuild main.ts --bundle --outfile=build/main.js && node ./build/main.js"
   },
   "devDependencies": {
+    "esbuild": "^0.19.4",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "example-library": "https://github.com/sschanhee/private-package-test.git#v1.0"
+    "@sschanhee/example-library": "^1.0.0"
   }
 }

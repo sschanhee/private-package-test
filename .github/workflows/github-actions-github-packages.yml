@@ -14,7 +14,7 @@ jobs:
          registry-url: 'https://npm.pkg.github.com'
          scope: '@sschanhee'
       - name: Install dependencies
-        run: cd example-consumer && yarn --frozen-lockfile
+        run: cd example-consumer-github-packages && yarn --frozen-lockfile
         env: 
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: cd example-consumer && yarn run-bundled
+      - run: cd example-consumer-github-packages && yarn run-main

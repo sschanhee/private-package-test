@@ -15,10 +15,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
          node-version: '16.13.2'
-         registry-url: 'https://npm.pkg.github.com'
-         scope: '@sschanhee'
       - name: Install dependencies
         run: cd example-consumer && yarn --frozen-lockfile
-        env: 
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: cd example-consumer && yarn run-main && echo ${{ github.token }}
+      - run: cd example-consumer && yarn run-main 
