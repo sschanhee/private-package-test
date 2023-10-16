@@ -2,3 +2,5 @@ node_modules
 compiled
 .DS_Store
 .logs
+build
+*.log
