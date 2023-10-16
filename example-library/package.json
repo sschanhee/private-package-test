@@ -1,11 +1,13 @@
 {
-  "name": "example-library",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "example-library-2",
+  "version": "1.0.1",
+  "main": "src/index.ts",
   "license": "MIT",
+  "publishConfig": {
+    "@sschanhee:registry": "https://npm.pkg.github.com"
+  },
   "files": [
-    "/dist"
+    "/src"
   ],
   "devDependencies": {
     "typescript": "^5.2.2"
